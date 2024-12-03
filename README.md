@@ -101,6 +101,20 @@ cd ../client
 npm start
 ```
 
+## Setup using Docker
+
+### Requirements
+
+#### Docker
+
+### Docker Compose
+
+### Update Environment Variables in docker-compose.yml
+
+```bash
+docker-compose up --build
+```
+
 ## Project Structure
 
 ```bash
