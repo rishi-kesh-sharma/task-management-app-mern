@@ -1,61 +1,135 @@
-# [TaskFlow](https://www.taskflow.site/): A simple task management website for a simplified workflow.
-Crafted with the MERN stack. Tested with Jest and React Testing Library. ✅
+# MERN Stack Project
 
-![Main](https://github.com/faridasLab/taskflow-website/blob/main/main.png)
+This is a MERN (MongoDB, Express, React, Node.js) stack application designed to provide a full-stack solution for [insert project purpose, e.g., task management, e-commerce, etc.].
 
-[Visit the site](https://www.taskflow.site/) | [Server](https://github.com/faridasLab/taskflow-website/tree/main/server) | [Client](https://github.com/faridasLab/taskflow-website/tree/main/client)
+## Table of Contents
 
+- [Features](#features)
+- [Technologies](#technologies)
+- [Prerequisites](#prerequisites)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Scripts](#scripts)
+- [Project Structure](#project-structure)
+- [License](#license)
 
+---
 
-## 🛠️ Tools
-- **Server:** 
-  - TypeScipt
-  - Node.js
-  - Express
-  - Passport.js
-- **Client:**
-  - JavaScript
-  - React
-  - Material UI
-  - CSS
-  - Jest & React Testing Library
+## Features
 
+- Backend REST API using Express.js.
+- Frontend single-page application using React.js.
+- MongoDB for data storage.
+- Full CRUD operations.
+- State management using [Redux/Context API/etc.].
+- Authentication and authorization (e.g., JWT-based login system).
 
-## 🚀 Features
-  - **React Frontend:** ⚛️ Dynamic and interactive user interfaces using the React library.
-  - **CSS Styling:** 🎨 Custom styles to enhance visual presentation and user experience.
-  - **Responsive UI:** 📱 A smooth experience on various devices through a responsive user interface.
-  - **Material UI:** 🗓️ Utilizing the visually appealing Material UI framework, incorporating date pickers and inputs for enhanced user interaction.
-  - **Testing with Jest:** 🧪 Enhanced code reliability and robustness by conducting testing using Jest.
-  - **TypeScript & Node.js Backend:** 💻 Elevating code reliability and maintainability with TypeScript while harnessing the efficiency of Node.js for robust server-side development.
-  - **User Authentication:** 🔐 Implementing secure access control with Passport.js and JWT for user authentication.
+---
 
-## Optimizations
-  - **Include end to end tests**
+## Technologies
 
+- **Frontend**: React.js, React Router, Axios, TailwindCSS (or other UI library)
+- **Backend**: Node.js, Express.js, Mongoose
+- **Database**: MongoDB
+- **Authentication**: JSON Web Tokens (JWT)
+- **Dev Tools**: Nodemon, ESLint, Prettier
+- **Other**: Docker (optional), Postman for API testing
 
+---
 
-## 🎯 Purpose of this project 
-  Driven developer here! [TaskFlow](https://www.taskflow.site/) isn't just a showcase project. Beyond the code, it's about
-  creating something that people will genuinely use—merging my passion for coding with practical utility.
-  It's a user-centric creation that embodies my commitment to impactful development. 💻
-  
+## Prerequisites
 
+Make sure you have the following installed on your machine:
 
-## 🤝 Contributing
-For developers interested in contributing to this project:🚀 Your expertise is welcomed! Let's collaborate to enhance TaskFlow's functionality. Together, we can make meaningful improvements and create a tool that serves users effectively. 🤝
-While we don't have strict guidelines, I'll be reviewing contributions to ensure they align with the project's goals. Feel free to reach out if you have questions.
+- **Node.js** (v14 or above) - [Download here](https://nodejs.org/)
+- **npm** or **yarn** - Comes with Node.js
+- **MongoDB** (local or cloud-based) - [Download here](https://www.mongodb.com/try/download/community)
+- **Git** (optional) - [Download here](https://git-scm.com/)
 
-## Contact 📇
+---
 
-If you have any questions or feedback, feel free to reach out:
-- 📧Email: farida.hasanova009@gmail.com
-- [🌎 My official website](https://farida-mu.vercel.app/)
-- [X](https://twitter.com/faridahasx)
-- [LinkedIn](https://www.linkedin.com/in/farida-hasanova-879744194/)
+## Setup
 
+### Clone the repository
 
-#
-[Visit the site](https://www.taskflow.site/) | [Server](https://github.com/faridasLab/taskflow-website/tree/main/server) | [Client](https://github.com/faridasLab/taskflow-website/tree/main/client)
+```bash
+git clone https://github.com/rishi-kesh-sharma/task-management-app-mern.git
+cd <repo-url>
+```
 
-# task-management-app-mern
+## Backend Setup
+
+### Navigate to the server directory:
+
+```bash
+cd server
+```
+
+### Install Dependencies
+
+```
+npm install
+```
+
+### Copy .env.example to .env and update variables
+
+### Start backend server
+
+```bash
+npm run dev
+```
+
+## Frontend Setup
+
+### Navigate to client directory
+
+```bash
+cd ../client
+```
+
+### Install Dependencies
+
+```bash
+cd ../client
+```
+
+### Copy .env.example to .env and update variables
+
+### Start the frontend server
+
+```bash
+npm start
+```
+
+## Project Structure
+
+```bash
+task-management-app-mern/
+├── client/                # React frontend
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── constants/
+│   │   ├── containers/
+│   │   ├── context/
+│   │   ├── hooks/
+│   │   ├── pages/
+│   │   ├── redux/
+│   │   ├── tests/
+│   │   ├── utils/
+│   │   └── App.js
+│   │   └── index.js
+│   └── package.json
+├── server/                   # Express backend
+|   |___src
+|   │   ├── models/
+|   │   ├── routes/
+|   │   ├── controllers/
+|   │   ├── middleware/
+|   │   ├── config/
+|   │   ├── server.js
+|   │   └── package.json
+└── README.md
+
+```
