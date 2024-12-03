@@ -1,0 +1,44 @@
+# Ignore node_modules directories
+node_modules
+**/node_modules
+
+# Ignore log files
+*.log
+
+# Ignore environment files (sensitive information)
+.env
+*.env
+
+# Ignore local development artifacts
+*.local
+.vscode
+.idea
+.DS_Store
+*.swp
+*.tmp
+*.cache
+.nyc_output
+coverage
+
+# Ignore Git files
+.git
+.gitignore
+
+# Ignore build output (for frontend)
+build
+dist
+
+# Ignore Docker-specific files (optional, if not needed inside the container)
+docker-compose.override.yml
+
+# Ignore OS-specific files
+Thumbs.db
+*.bak
+*.old
+
+# Ignore any editor/IDE-specific files
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
